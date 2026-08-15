@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React.js.md",
+                "file": "Projects/CollabEditor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React.js"
+              "title": "CollabEditor"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React.js.md",
+                "file": "Projects/CollabEditor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,9 +212,9 @@
   },
   "active": "8556f7447de7286f",
   "lastOpenFiles": [
-    "Projects Brief.md",
-    "React.js.md",
     "Projects/AURAOS.md",
+    "React.js.md",
+    "Projects Brief.md",
     "Projects",
     "Projects/CollabEditor.md",
     "Projects/Vaultik.md",
