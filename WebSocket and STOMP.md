@@ -29,7 +29,7 @@ STOMP->Websocket->TCP->Internet
 Websocket gives a communication channel
 STOMP gives you a way to organize messages
 
-![[Pasted image 20260815222434.png]]
+![[Pasted image 20260815222434.png|307]]
 -websocket maintains the connection
 -STOMP defines SEND, SUBSCRIBE, DESTINATION etc
 -Spring messaging handles routing
