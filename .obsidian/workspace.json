@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CollabEditor.md",
+                "file": "WebSocket and STOMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CollabEditor"
+              "title": "WebSocket and STOMP"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CollabEditor.md",
+                "file": "WebSocket and STOMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,10 +197,10 @@
   },
   "active": "31534c68bc10474c",
   "lastOpenFiles": [
-    "Pasted image 20260815222434.png",
     "Projects/CollabEditor.md",
-    "WebSocket and STOMP.md",
     "Projects Brief.md",
+    "Pasted image 20260815222434.png",
+    "WebSocket and STOMP.md",
     "Projects/AURAOS.md",
     "Backend Frameworks/SpringBoot.md",
     "Backend Frameworks",
