@@ -24,8 +24,12 @@ downside - expired keys that are never accessed remain in memory
 Thread A : SET x = 10      Thread A: DELETE x
 Thread B : GET x              Thread B: GET x
 without synchronization, they interact unpredictably
-
-ReadWriteLock : concurrency
+###### ReadWriteLock
+![[Pasted image 20260816134817.png|370]]
+multiple readers can execute simultaneously
+writers require exclusive access
+*why does GET sometimes require a write lock?*
+**
 Pluggable LRU/LFU eviction
 WAL + snapshots : durability and recovery
 SpringBoot : REST APi
