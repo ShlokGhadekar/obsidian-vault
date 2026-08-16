@@ -15,8 +15,12 @@ HashMap<String, StoredValue>
 ##### TTL(Time to Live)
 SET user:1 shlok TTl=60
 it doesn't delete after 60sec, only deleted when GET happens(lazy expiration)
-no need for a background expiration
+no need for a background expiration thread
+downside - expired keys that are never accessed remain in memory
 ![[Pasted image 20260816124012.png|268]]
+
+#### Concurrency
+
 ReadWriteLock : concurrency
 Pluggable LRU/LFU eviction
 WAL + snapshots : durability and recovery
