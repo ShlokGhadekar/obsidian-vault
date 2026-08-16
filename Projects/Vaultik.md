@@ -28,8 +28,10 @@ without synchronization, they interact unpredictably
 ![[Pasted image 20260816134817.png|370]]
 multiple readers can execute simultaneously
 writers require exclusive access
-*why does GET sometimes require a write lock?*
-**
+
+==*why does GET sometimes require a write lock?*==
+*GET may require a write lock because it can modify TTL state, eviction metadata, and statistics*
+
 Pluggable LRU/LFU eviction
 WAL + snapshots : durability and recovery
 SpringBoot : REST APi
