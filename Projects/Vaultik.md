@@ -57,8 +57,14 @@ need eviction policy
   LFU May keep A
   LRU May keep B
 
-WAL + snapshots : durability and recovery
-SpringBoot : REST APi
+==LFU Tie Breaking==
+A → frequency 2
+B → frequency 2
+RULE: 
+1. lowest frequency
+2. then LRU among ties
 
-*Not a distributed cache like redis*
+##### Persistence
+
+
 
