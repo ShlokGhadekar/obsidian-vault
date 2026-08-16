@@ -52,6 +52,11 @@ need eviction policy
 		C → 7 accesses
 		evict B
 ![[Pasted image 20260816140952.png|436]]
+>A accessed 100 times yesterday
+  B accessed 5 times in last minute
+  LFU May keep A
+  LRU May keep B
+
 WAL + snapshots : durability and recovery
 SpringBoot : REST APi
 
