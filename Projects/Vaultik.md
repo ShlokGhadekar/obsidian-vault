@@ -1,9 +1,9 @@
 #projects
-Vaultik is: 
--Single Node
--Concurrent
--Persistent
--In memory key-value store
+#### Vaultik is: 
+- Single Node
+- Concurrent
+- Persistent
+- In memory key-value store
 
 ##### HashMap : memory storage
 HashMap<String, StoredValue>
@@ -31,6 +31,11 @@ writers require exclusive access
 
 ==*why does GET sometimes require a write lock?*==
 *GET may require a write lock because it can modify TTL state, eviction metadata, and statistics*
+==*why not per key locks?*==
+*it does increase parallelism but increasing complexity as well*
+
+##### Eviction policy
+
 
 Pluggable LRU/LFU eviction
 WAL + snapshots : durability and recovery
