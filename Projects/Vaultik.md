@@ -46,10 +46,12 @@ need eviction policy
 		evict C
 		LRU uses HashMap + Doubly linked list
 		O(1) eviction
-- LFU
-
-
-
+- LFU (least frequently used)
+		A → 10 accesses
+		B → 2 accesses
+		C → 7 accesses
+		evict B
+![[Pasted image 20260816140952.png|436]]
 WAL + snapshots : durability and recovery
 SpringBoot : REST APi
 
