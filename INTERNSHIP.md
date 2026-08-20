@@ -26,13 +26,8 @@ I learned that getting each individual component working isn’t the same as bui
 
 ### **What did you learn from the internship?**
 #### **Technical**
-
 “I learned how different APIs and services can be integrated into an end-to-end system.”
-
-### **Product**
-
+#### **Product**
 “I learned that a technically impressive solution isn’t necessarily useful unless it solves a real workflow problem.”
-
-### **Business**
-
+#### **Business**
 “I started thinking about automation in terms of time saved, scalability, reliability and quality rather than simply whether something could be automated.”
