@@ -19,3 +19,32 @@ Delhi population
 → Non-users
 Then 
 *users * masks/day * 365*
+
+## Market Size Qu
+**“Estimate the annual market size of bottled water in Delhi.”**
+
+I’d answer:
+
+“I’ll estimate this from consumption rather than supply. I’ll start with Delhi’s population, estimate daily bottled-water consumption per person, multiply by 365, and multiply by the average price per bottle.”
+
+Assume:
+
+Population = **20M**
+
+Suppose:
+
+- 50% consume bottled water regularly
+- Average consumption = 0.5 bottles/day
+- Average price = ₹20
+
+Therefore:
+
+20M × 50% × 0.5 × 365 × ₹20
+
+= **₹36.5B**
+
+≈ **₹3,650 crore/year**
+
+Then sanity check:
+
+“This implies around 10 million bottles per day, which is plausible for a city of 20 million given that I’m counting regular consumption rather than every resident drinking bottled water.”
