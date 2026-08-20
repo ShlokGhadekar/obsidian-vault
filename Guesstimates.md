@@ -12,3 +12,10 @@ Question: **Estimate the number of masks used in Delhi in one year.**
 5.Sanity Check
 
 #### Segmentation
+**Mask usage**
+Delhi population
+→ Regular mask users  
+→ Occasional mask users  
+→ Non-users
+Then 
+*users * masks/day * 365*
