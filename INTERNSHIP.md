@@ -25,9 +25,11 @@ That taught me to think about a system as an end-to-end pipeline rather than loo
 I learned that getting each individual component working isn’t the same as building a good product. The interfaces between components often become the real bottleneck.
 
 ### **What did you learn from the internship?**
+AUTOMATION
 #### **Technical**
 “I learned how different APIs and services can be integrated into an end-to-end system.”
 #### **Product**
 “I learned that a technically impressive solution isn’t necessarily useful unless it solves a real workflow problem.”
 #### **Business**
 “I started thinking about automation in terms of time saved, scalability, reliability and quality rather than simply whether something could be automated.”
+
