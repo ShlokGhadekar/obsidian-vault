@@ -1,5 +1,5 @@
 # Bain BCN Labs — Interview Prep Q&A
-
+ 
 Priority order: **Project deep-dives → GenAI/MCP concepts → CS/systems fundamentals → Full-stack → Behavioral → Why Bain**
 
 ---
