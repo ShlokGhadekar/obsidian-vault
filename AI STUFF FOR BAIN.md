@@ -27,6 +27,8 @@
 
 Given zero time: know **bias-variance tradeoff** (underfit = too simple, misses patterns; overfit = memorizes noise, fails to generalize) and be able to name **regularization, cross-validation, more data** as fixes. That's the one question you're most likely to get cold on this line — don't need more than that tonight.
 
+1.Linear Regression : predicting temp change, stock prices
+draws a straight line between x and y(price of a house based on its size, as price increases)
 ### 6. Forecasting & Optimization (no project overlap — bare basics only)
 
 One line each: **Forecasting** predicts future values from historical/time-series data (e.g., demand forecasting). **Optimization** finds the best solution under constraints (e.g., linear programming for resource allocation). If asked "have you done this," be honest — no — then pivot: "but this maps conceptually to what I did in Vaultik with throughput/latency tradeoffs under constraints."
