@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,10 +225,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d03f2d09b16442df",
+  "active": "3115aa2eba768fa6",
   "lastOpenFiles": [
-    "Bain.md",
     "Guesstimates.md",
+    "Bain.md",
     "Projects/Vaultik.md",
     "Pasted image 20260816140952.png",
     "Pasted image 20260816134817.png",
