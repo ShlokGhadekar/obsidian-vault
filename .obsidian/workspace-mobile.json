@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React.js.md",
+                "file": "Projects/CollabEditor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React.js"
+              "title": "CollabEditor"
             }
           }
         ]
@@ -172,6 +172,11 @@
   },
   "active": "7bc397cbe3945ad7",
   "lastOpenFiles": [
+    "WebSocket and STOMP.md",
+    "Projects/CollabEditor.md",
+    "Frontend Frameworks/Next.js.md",
+    "Projects/Vaultik.md",
+    "Frontend Frameworks/React.js.md",
     "Welcome.md",
     "AURAOS.md",
     "Projects Brief.md",
