@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -253,10 +253,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "677469221486cf60",
+  "active": "cb367f874df355aa",
   "lastOpenFiles": [
-    "Projects/Vaultik.md",
     "AI STUFF FOR BAIN.md",
+    "Projects/Vaultik.md",
     "Guesstimates.md",
     "Bain.md",
     "INTERNSHIP.md",

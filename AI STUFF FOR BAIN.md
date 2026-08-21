@@ -34,7 +34,11 @@ calculates the probability of a situation occurring or not occurring(yes or no)
 maps the value using a sigmoid function between 1 and 0
 3.Decision Trees: splits the dataset into smaller nodes(used in business applications, easy to visualize)
 should i buy a house? - is my budget over 100k - yes - no if yes do i need a 2 bedroom home etc till you reach the answer
-4.
+4.Support Vector Machines: like LR but for complex datasets where the sepration is not obvious(image, text classification)
+instead of a single line, it draws a boundary
+5.KNN : works based on similarity
+when a new datapoint comes in, it looks at the nearest k datapoints and assigns the most common label among them
+slow with large datasets
 ### 6. Forecasting & Optimization (no project overlap — bare basics only)
 
 One line each: **Forecasting** predicts future values from historical/time-series data (e.g., demand forecasting). **Optimization** finds the best solution under constraints (e.g., linear programming for resource allocation). If asked "have you done this," be honest — no — then pivot: "but this maps conceptually to what I did in Vaultik with throughput/latency tradeoffs under constraints."
