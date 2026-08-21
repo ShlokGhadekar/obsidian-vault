@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Vaultik.md",
+                "file": "Backend Frameworks/SpringBoot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vaultik"
+              "title": "SpringBoot"
             }
           },
           {
@@ -76,8 +76,23 @@
               "icon": "lucide-file",
               "title": "AI Stuff"
             }
+          },
+          {
+            "id": "a95e8bfe3251d0c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,34 +266,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31534c68bc10474c",
+  "active": "a95e8bfe3251d0c0",
   "lastOpenFiles": [
-    "Pasted image 20260821100400.png",
-    "Projects/CollabEditor.md",
-    "Pasted image 20260821100254.png",
-    "Projects/AURAOS.md",
-    "Pasted image 20260821100201.png",
-    "Projects/Vaultik.md",
+    "Untitled.md",
+    "Backend Frameworks/SpringBoot.md",
     "AI Stuff.md",
     "Guesstimates.md",
+    "WebSocket and STOMP.md",
+    "Welcome.md",
+    "Images/Pasted image 20260816124012.png",
     "INTERNSHIP.md",
-    "Pasted image 20260821053453.png",
+    "Projects/Vaultik.md",
     "Bain.md",
-    "Pasted image 20260816140952.png",
-    "Pasted image 20260816134817.png",
-    "Pasted image 20260816124012.png",
+    "Images/Pasted image 20260821100400.png",
+    "Projects/CollabEditor.md",
+    "Images/Pasted image 20260821100254.png",
+    "Projects/AURAOS.md",
+    "Images/Pasted image 20260821100201.png",
+    "Images/Pasted image 20260821053453.png",
+    "Images/Pasted image 20260816140952.png",
+    "Images/Pasted image 20260816134817.png",
     "Images/Pasted image 20260815222434.png",
     "Images",
     "Images/Pasted image 20260816122814.png",
-    "WebSocket and STOMP.md",
     "Projects Brief.md",
-    "Backend Frameworks/SpringBoot.md",
     "Backend Frameworks",
     "Frontend Frameworks",
     "Frontend Frameworks/Next.js.md",
     "Frontend Frameworks/React.js.md",
     "Projects",
-    "Welcome.md",
     "root",
     "Untitled 1.md",
     "Untitled 2.md",
