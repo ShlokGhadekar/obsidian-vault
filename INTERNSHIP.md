@@ -36,3 +36,6 @@ AUTOMATION
 ### **If they ask “Why AI?**
 My internship made me interested in the intersection of software engineering and AI. What I found particularly interesting wasn’t just using an LLM, but figuring out where AI actually creates value inside a larger workflow. That’s one reason I’m interested in roles where technology and business problems overlap
 ![[Pasted image 20260821053453.png]]
+
+### **If you were given another month on this project, what would you improve?**
+For the voice agent, a strong answer would be **latency optimization, better fallback handling, conversation monitoring/evaluation, and cost optimization**.
