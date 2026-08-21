@@ -1,5 +1,6 @@
 #projects
-#### Vaultik is: 
+![[Pasted image 20260821100400.png|502]]
+#### Vaultik is:
 - Single Node
 - Concurrent
 - Persistent

@@ -1,5 +1,5 @@
 #projects 
-
+![[Pasted image 20260821100254.png|486]]
 ## Tech Stack
 
 ### Frontend

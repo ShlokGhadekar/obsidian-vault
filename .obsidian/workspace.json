@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CollabEditor.md",
+                "file": "Projects/Vaultik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CollabEditor"
+              "title": "Vaultik"
             }
           },
           {
@@ -253,9 +253,11 @@
   },
   "active": "31534c68bc10474c",
   "lastOpenFiles": [
+    "Pasted image 20260821100400.png",
+    "Projects/CollabEditor.md",
+    "Pasted image 20260821100254.png",
     "Projects/AURAOS.md",
     "Pasted image 20260821100201.png",
-    "Projects/CollabEditor.md",
     "Projects/Vaultik.md",
     "AI Stuff.md",
     "Guesstimates.md",
