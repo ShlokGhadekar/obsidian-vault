@@ -33,3 +33,6 @@ AUTOMATION
 #### **Business**
 “I started thinking about automation in terms of time saved, scalability, reliability and quality rather than simply whether something could be automated.”
 
+### **If they ask “Why AI?**
+My internship made me interested in the intersection of software engineering and AI. What I found particularly interesting wasn’t just using an LLM, but figuring out where AI actually creates value inside a larger workflow. That’s one reason I’m interested in roles where technology and business problems overlap
+![[Pasted image 20260821053453.png]]
