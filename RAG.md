@@ -16,3 +16,6 @@ That's it conceptually: **Retrieve → Augment (the prompt) → Generate.**
 4. Ask the LLM : paste the closest matching text into the prompt and ask your question
 
 REDACTED_GROQ_KEY
+
+### The python code
+
