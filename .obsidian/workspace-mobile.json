@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bain.md",
+                "file": "AI Stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bain"
+              "title": "AI Stuff"
             }
           }
         ]
@@ -172,6 +172,17 @@
   },
   "active": "7bc397cbe3945ad7",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Bain.md",
+    "Untitled.md",
+    "Images/Pasted image 20260821100400.png",
+    "Images/Pasted image 20260821100254.png",
+    "Images/Pasted image 20260821100201.png",
+    "Images/Pasted image 20260821053453.png",
+    "Images/Pasted image 20260816140952.png",
+    "Images/Pasted image 20260816134817.png",
+    "Images/Pasted image 20260816124012.png",
+    "AI Stuff.md",
     "Guesstimates.md",
     "Projects/CollabEditor.md",
     "WebSocket and STOMP.md",
@@ -180,7 +191,6 @@
     "Frontend Frameworks/React.js.md",
     "Welcome.md",
     "AURAOS.md",
-    "Projects Brief.md",
-    "Untitled.md"
+    "Projects Brief.md"
   ]
 }
