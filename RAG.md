@@ -15,3 +15,4 @@ That's it conceptually: **Retrieve → Augment (the prompt) → Generate.**
 3. Store and compare : store numbers in a list, compare the query's number against every stored number using similarity
 4. Ask the LLM : paste the closest matching text into the prompt and ask your question
 
+REDACTED_GROQ_KEY
