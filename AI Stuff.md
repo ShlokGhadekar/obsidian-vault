@@ -46,3 +46,10 @@ One line each: **Forecasting** predicts future values from historical/time-serie
 ### 7. Experimental Design & Automation (partial overlap via Bitlance)
 
 **Your proof:** The n8n + OpenAI sentiment-routing assistant and the automated GNews→GPT-4→DALL·E→WordPress blog pipeline from Bitlance — both are automated pipelines with decision logic, which is the automation half of this line.
+
+8.langchain and langgraph
+-AI research agents 
+
+9.your llm gets the same question 100 times how do you cache it?
+-exact match caching
+-semantic(connected words(kitten and cat)) caching
