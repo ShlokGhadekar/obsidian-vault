@@ -117,6 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "RAG.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -172,10 +173,11 @@
   },
   "active": "7bc397cbe3945ad7",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "RAG.md",
     "AI Stuff.md",
     "INTERNSHIP.md",
     "Guesstimates.md",
-    "Untitled 1.md",
     "Bain.md",
     "Untitled.md",
     "Images/Pasted image 20260821100400.png",
