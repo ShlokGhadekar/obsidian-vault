@@ -20,3 +20,11 @@ const greet = () => console.log("hi");
 ```javascript
 	const msg = console.log(`Hello, ${name}!`);
 ```
+### Destructuring : pulling values out of objects/arrays
+```javascript
+const user = {id: 1, name: "shlok"};
+const { id, name: userName } = user;
+
+const arr = [1, 2, 3];
+const [first, second] = arr
+```
