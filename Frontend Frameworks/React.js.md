@@ -8,5 +8,15 @@
 
 ### declaration
 ```js
-const name. = 
+const name = "Shlok"; //let if it changes
+let count = 0;
+```
+### arrow functions
+```javascript
+const add = (a,b) => a+b;
+const greet = () => console.log("hi");
+```
+### string interpolation
+```javascript
+	const msg = console.log(`Hello, ${name}!`);
 ```
