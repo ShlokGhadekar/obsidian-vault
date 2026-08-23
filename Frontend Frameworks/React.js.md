@@ -53,12 +53,21 @@ const evens = nums.filter(n=>n%2===0);
 src/App.js
 ```jsx
 function App() {
+	const name = "ShlokG"; 
+	const items = ["React", "Java", "DSA"];
 	return(
 		<div>
 			<h1>Hello, Shlok</h1>
-			<p>This is 
+			<p>This is JSX - HTML looking syntax inside js.</p>
+			<h1>Hello, {name}</h1>
+			<ul>
+			{items.map(item => <li key = {item}> {item} </li>)}
+			</ul>
 		</div>
-	)
+	);
 }
 export default App;
 ```
+- npm run dev to run
+- jsx must return one root element(one div wrapping everything)
+- 
