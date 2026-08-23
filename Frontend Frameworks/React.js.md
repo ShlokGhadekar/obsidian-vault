@@ -28,3 +28,14 @@ const { id, name: userName } = user;
 const arr = [1, 2, 3];
 const [first, second] = arr
 ```
+this just means storing id=1 and userName = shlok(renamed to avoid name conflicts)
+and first = 1, second = 2
+### Spread/copy/merge without mutating the original
+```javascript
+const updatedUser = {...user, name = "Shlok G"};
+const morenumbers = [...arr, 4, 5];
+```
+### import/export (how files share code)
+```javascript
+
+```
