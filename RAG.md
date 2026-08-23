@@ -1,3 +1,8 @@
+**VECTOR DATABASE**
+vector is list of binary values 
+Vector database is a relational database around these vectors
+Vector embedding: converting an audio/text/image file to a vector
+Use ANN(approx nearest neighbour) to search the closest value
 ### 1. What problem RAG solves
 
 An LLM only knows what was in its training data — frozen at some cutoff, no access to _your_ documents, your company's data, or anything private/recent. Two bad fixes:
