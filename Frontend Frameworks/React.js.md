@@ -37,5 +37,28 @@ const morenumbers = [...arr, 4, 5];
 ```
 ### import/export (how files share code)
 ```javascript
+export default function Hello() { } // one default export per file export
+const helper = () => {}; // named export
+import Hello, { helper } from "./Hello"; // import both
+```
+### array methods(used for rendering lists)
+```javascript
+const nums = [1, 2, 3];
+const doubled = nums.map(n=>n*2);
+const evens = nums.filter(n=>n%2===0);
+```
 
+
+## Step 1 : Rendering elements
+src/App.js
+```jsx
+function App() {
+	return(
+		<div>
+			<h1>Hello, Shlok</h1>
+			<p>This is 
+		</div>
+	)
+}
+export default App;
 ```
