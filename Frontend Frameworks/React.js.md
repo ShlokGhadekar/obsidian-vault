@@ -70,4 +70,11 @@ export default App;
 ```
 - npm run dev to run
 - jsx must return one root element(one div wrapping everything)
-- 
+- `.map()` returning JSX is **the** pattern for rendering any list in React.
+- The `key={item}` is required — React uses it to track which list item is which when things change.
+
+## Step 2 : Components and Props
+- just a function that returns jsx
+- UI is split into components(to reuse and organise)
+- Data flows in via props(they're like function arguments)
+
