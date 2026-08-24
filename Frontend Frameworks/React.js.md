@@ -156,7 +156,9 @@ function EventDemo(){
 	};
 	return(
 		<div>
-			<input t
+			<input type="text" value={text} onChange={handleChange}/>
+			<button onClick={handleSubmit}>Submit</button>
+			<p>You typed : {text}</p>
 		</div>
 	);
 }
