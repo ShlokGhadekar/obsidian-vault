@@ -114,5 +114,18 @@ import { useState } from "react";
 
 function Counter(){
 	const [count, setCount] = useState(0); //[currentValue, setterFunction], starts at 0
+	return(
+		<div>
+			<p>Count: {count}</p>
+			<button onClick = {() => setCount(count+1)}>+1</button>
+			<button onClick = {() => setCount(count-1)}>-1</button>
+		</div>
+	);
 }
+export default Counter
 ```
+- never mutate state directly(count=count+1), always call the setter(setCount())
+- calling the setter is what tells react to "re-render this component with the updated value"
+- direct mutation wont won't trigger a re-render, the screen just wont update(beginner's react bug)
+- state is local to each instance of a component(two individual counters, each counter gets its own count)
+## Step 4 : Handling Events
