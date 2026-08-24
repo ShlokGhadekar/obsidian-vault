@@ -95,7 +95,15 @@ function App(){
 	return (
 		<div>
 			<h1>My prep list</h1>
-			{items}
-	)
+			{items.map(item => (
+				<ItemCard key={item.id} title={item.title} category={item.category}/>
+			))}
+		</div>
+	);
 }
+export default App;
 ```
+- a component can never modify its own props
+- props are read only inside the child
+
+## Step 3 : Internal Component State (useState)
