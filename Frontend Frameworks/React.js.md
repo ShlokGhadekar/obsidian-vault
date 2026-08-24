@@ -109,6 +109,7 @@ export default App;
 ## Step 3 : Internal Component State (useState)
 - props are for data coming from outside
 - state is data a component owns and can change itself(like a counter, a toggle, form input text)
+src/Counter.jsx
 ```jsx
 import { useState } from "react";
 
@@ -122,7 +123,21 @@ function Counter(){
 		</div>
 	);
 }
-export default Counter
+export default Counter;
+```
+src/App.jsx
+```jsx
+import Counter from "./Counter";
+
+function App() {
+  return (
+    <div>
+      <h1>My App</h1>
+      <Counter/>
+    </div>
+  );
+}
+export default App;
 ```
 - never mutate state directly(count=count+1), always call the setter(setCount())
 - calling the setter is what tells react to "re-render this component with the updated value"
