@@ -78,3 +78,24 @@ export default App;
 - UI is split into components(to reuse and organise)
 - Data flows in via props(they're like function arguments)
 
+```jsx
+function ItemCard({title, category}){
+	return(
+		<div style={{border: "1px solid gray", padding: "8px", margin: "4px"}}>
+			<h3>{title}</h3>
+			<p>{category}</p>
+		</div>
+	);
+}
+function App(){
+	const items = [
+		{id : 1, title: "React", category: "Frontend"},
+		{id : 2, title: "DSA", category: "Core CS"},
+	];
+	return (
+		<div>
+			<h1>My prep list</h1>
+			{items}
+	)
+}
+```
