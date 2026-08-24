@@ -107,3 +107,12 @@ export default App;
 - props are read only inside the child
 
 ## Step 3 : Internal Component State (useState)
+- props are for data coming from outside
+- state is data a component owns and can change itself(like a counter, a toggle, form input text)
+```jsx
+import { useState } from "react";
+
+function Counter(){
+	const [count, setCount] = useState(0); //[currentValue, setterFunction], starts at 0
+}
+```
