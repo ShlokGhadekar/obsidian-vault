@@ -143,4 +143,21 @@ export default App;
 - calling the setter is what tells react to "re-render this component with the updated value"
 - direct mutation wont won't trigger a re-render, the screen just wont update(beginner's react bug)
 - state is local to each instance of a component(two individual counters, each counter gets its own count)
+
 ## Step 4 : Handling Events
+```jsx
+function EventDemo(){
+	const [text, setText] = useState("");
+	const handleChange = (event) => {
+		setText(event.target.value); //event.target is the actual input DOM element
+	};
+	const handleSubmit = () => {
+		console.log("Submitted:", text);
+	};
+	return(
+		<div>
+			<input t
+		</div>
+	);
+}
+```
