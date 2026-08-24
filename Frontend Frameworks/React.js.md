@@ -163,3 +163,7 @@ function EventDemo(){
 	);
 }
 ```
+- `value={text}` + `onChange={handleChange}` together makes this a **controlled input** — React state is the single source of truth for what's in the box, not the DOM.
+
+## Step 5 : Form Validation
+**combine state+events+conditional rendering
