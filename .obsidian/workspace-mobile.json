@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG.md",
+                "file": "Frontend Frameworks/React.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG"
+              "title": "React.js"
             }
           }
         ],
@@ -188,8 +188,8 @@
   },
   "active": "9f668c9e65a13b77",
   "lastOpenFiles": [
-    "Frontend Frameworks/React.js.md",
     "RAG.md",
+    "Frontend Frameworks/React.js.md",
     "Projects/CollabEditor.md",
     "Projects/Vaultik.md",
     "Projects/AURAOS.md",
