@@ -28,10 +28,17 @@ chatGPT is a genAI powered by LLMs
 - model's randomness/variation in generation
 - low temp - more predictable
 - high temp - more varied/random
+
 **what is enterprise search?**
 Its like a google for a company's private information
 `what is our company's parental leave policy?`
 - Traditional Enterprise search : Employee-> Search: "parental leave policy" -> Search engine  
 	-> Internal documents -> Relevant Documents (generally returns documents or links)
 - GenAI Enterprise search : Employee -> "what is our parental leave policy?" -> RAG system(retrieves relevant docs) ->LLM -> output(employees are entitled to 6 month leaves)
+- **Connectors → indexing → permissions → retrieval → LLM → answer**
+- The system must not retrieve or expose documents that Employee B isn’t authorized to access.
+**Prompt Engineering/Context Engineering/Knowledge Engineering**
+- Prompt Engineering : how do i phrase my instruction
+- Context Engineering : designing what information you give an AI model at the time it generates an answer.
+- Knowledge Engineering : 
 
