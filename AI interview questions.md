@@ -73,4 +73,4 @@ Its like a google for a company's private information
 
 **what are guardrails in GenAi?**
 - Guardrails in GenAI are rules, checks, and controls that keep an AI system’s behavior within acceptable boundaries.
-- 
+- input guardrail(checks prompt), output guardrail(checks output), data privacy guardrail(prevents sensitive data leaks), grounding guardrail(checks if answer is not supported by the retrieved sources)
