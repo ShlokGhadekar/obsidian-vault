@@ -24,8 +24,9 @@ chatGPT is a genAI powered by LLMs
 **what is fine tuning?
 - training a pretrained model further on specific dataset/task
 - RAG provides external/contextual information; fine-tuning changes model behavior through additional training
-**what does temperature control in an LLM
+**what does temperature control do in an LLM?
 - model's randomness/variation in generation
 - low temp - more predictable
 - high temp - more varied/random
+
 
