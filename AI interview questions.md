@@ -40,5 +40,19 @@ Its like a google for a company's private information
 **Prompt Engineering/Context Engineering/Knowledge Engineering**
 - Prompt Engineering : how do i phrase my instruction
 - Context Engineering : designing what information you give an AI model at the time it generates an answer.
-- Knowledge Engineering : 
+- Knowledge Engineering : designing how knowledge is captured, structured, stored, maintained, and made usable by an AI system.
+      Knowledge engineering involves figuring out:
+		- What information is important?
+		- How should it be structured?
+		- How should documents be chunked?
+		- What metadata should be attached?
+		- What relationships exist between pieces of knowledge?
+		- How should outdated information be handled?
+		- How should knowledge be retrieved?
 
+**what is OpenTelemetry?
+- open source observability framework, it lets you see what your software is doing internally
+`3 Things OpenTelemetry Tracks?`
+1. Traces (what happened during a request?)
+	 A trace can show the entire journey and how long each step took.
+	 
