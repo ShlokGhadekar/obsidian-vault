@@ -37,6 +37,7 @@ Its like a google for a company's private information
 - GenAI Enterprise search : Employee -> "what is our parental leave policy?" -> RAG system(retrieves relevant docs) ->LLM -> output(employees are entitled to 6 month leaves)
 - **Connectors → indexing → permissions → retrieval → LLM → answer**
 - The system must not retrieve or expose documents that Employee B isn’t authorized to access.
+
 **Prompt Engineering/Context Engineering/Knowledge Engineering**
 - Prompt Engineering : how do i phrase my instruction
 - Context Engineering : designing what information you give an AI model at the time it generates an answer.
@@ -55,4 +56,16 @@ Its like a google for a company's private information
 `3 Things OpenTelemetry Tracks?`
 1. Traces (what happened during a request?)
 	 A trace can show the entire journey and how long each step took.
-	 
+	`` User asks question -> FastAPI -> Embedding -> VectorDB -> LLM -> Response
+2. Metrics(how much and how often?)
+	``Requests:       10,000
+	``Error rate:     1.2%
+	``Latency:        350 ms
+	``CPU usage:      65%
+	``Tokens used : 10mil
+3. Logs(what exactly happened)
+	``INFO  Request received
+	``INFO  Retrieved 5 documents
+	``INFO  Calling LLM
+	``ERROR LLM request failed
+	
