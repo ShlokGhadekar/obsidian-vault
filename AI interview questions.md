@@ -68,4 +68,9 @@ Its like a google for a company's private information
 	``INFO  Retrieved 5 documents
 	``INFO  Calling LLM
 	``ERROR LLM request failed
-	
+- useful for debugging/optimizing RAG pipelines and AI agents
+- AgentOPS - specifically for AI agents 
+
+**what are guardrails in GenAi?**
+- Guardrails in GenAI are rules, checks, and controls that keep an AI system’s behavior within acceptable boundaries.
+- 
