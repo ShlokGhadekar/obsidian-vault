@@ -27,4 +27,4 @@ class Solution {
 }
 ```
 - expand right if not repeated, remove from left if repeated
-length is max of (length, right-left+1)
+- length is max of (length, right-left+1)
