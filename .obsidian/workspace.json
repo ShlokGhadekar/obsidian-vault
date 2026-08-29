@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Prefix Sum.md",
+                "file": "DSA/Sliding Window.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prefix Sum"
+              "title": "Sliding Window"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "d478a47c5855f821",
   "lastOpenFiles": [
-    "DSA/Sliding Window.md",
     "DSA/Prefix Sum.md",
+    "DSA/Sliding Window.md",
     "Project - I.md",
     "AI interview questions.md",
     "Backend Frameworks/SpringBoot.md",
