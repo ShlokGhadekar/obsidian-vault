@@ -21,6 +21,7 @@ chatGPT is a genAI powered by LLMs
 - transformer based language models
 **what is AI hallucination
 - AI generating information that is incorrect/unsupported
+- 
 **what is fine tuning?
 - training a pretrained model further on specific dataset/task
 - RAG provides external/contextual information; fine-tuning changes model behavior through additional training
