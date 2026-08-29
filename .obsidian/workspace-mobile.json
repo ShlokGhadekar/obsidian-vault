@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend Frameworks/React.js.md",
+                "file": "AI interview questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React.js"
+              "title": "AI interview questions"
             }
           }
         ],
@@ -190,6 +190,7 @@
   "lastOpenFiles": [
     "RAG.md",
     "Frontend Frameworks/React.js.md",
+    "Untitled.md",
     "Projects/CollabEditor.md",
     "Projects/Vaultik.md",
     "Projects/AURAOS.md",
