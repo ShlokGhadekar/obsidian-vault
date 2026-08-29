@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI interview questions.md",
+                "file": "DSA/Sliding Window.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI interview questions"
+              "title": "Sliding Window"
             }
           }
         ]
@@ -196,13 +196,13 @@
   },
   "active": "d478a47c5855f821",
   "lastOpenFiles": [
-    "AI Stuff.md",
+    "Backend Frameworks/SpringBoot.md",
+    "Frontend Frameworks/React.js.md",
     "AI interview questions.md",
+    "AI Stuff.md",
     "Projects/AURAOS.md",
     "RAG.md",
-    "Backend Frameworks/SpringBoot.md",
     "Projects/CollabEditor.md",
-    "Frontend Frameworks/React.js.md",
     "Untitled.base",
     "Projects/Vaultik.md",
     "Frontend Frameworks/Next.js.md",
