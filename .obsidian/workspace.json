@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project - I.md",
+                "file": "DSA/Prefix Sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project - I"
+              "title": "Prefix Sum"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "d478a47c5855f821",
   "lastOpenFiles": [
-    "AI interview questions.md",
     "DSA/Sliding Window.md",
+    "DSA/Prefix Sum.md",
+    "Project - I.md",
+    "AI interview questions.md",
     "Backend Frameworks/SpringBoot.md",
     "Frontend Frameworks/React.js.md",
     "AI Stuff.md",
@@ -214,7 +216,6 @@
     "Guesstimates.md",
     "INTERNSHIP.md",
     "Untitled 1.md",
-    "Project - I.md",
     "WebSocket and STOMP.md",
     "Welcome.md",
     "Images/Pasted image 20260816124012.png",
