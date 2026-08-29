@@ -6,7 +6,7 @@
 1.React.js UI [[React.js]]
 2.Next.js App [[Next.js]]
 3.TypeScript
-4.
+4. 
 ### Backend
 1.SpringBoot [[SpringBoot]]
 2.PostgreSQL
