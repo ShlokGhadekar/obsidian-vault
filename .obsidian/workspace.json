@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG.md",
+                "file": "AI interview questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG"
+              "title": "AI interview questions"
             }
           }
         ]
@@ -196,7 +196,10 @@
   },
   "active": "d478a47c5855f821",
   "lastOpenFiles": [
+    "AI Stuff.md",
+    "AI interview questions.md",
     "Projects/AURAOS.md",
+    "RAG.md",
     "Backend Frameworks/SpringBoot.md",
     "Projects/CollabEditor.md",
     "Frontend Frameworks/React.js.md",
@@ -204,14 +207,11 @@
     "Projects/Vaultik.md",
     "Frontend Frameworks/Next.js.md",
     "DSA/Sliding Window.md",
-    "AI Stuff.md",
     "DSA/Sliding Window/Untitled.md",
     "DSA/Sliding Window",
     "DSA",
     "Guesstimates.md",
-    "RAG.md",
     "INTERNSHIP.md",
-    "AI interview questions.md",
     "Untitled 1.md",
     "Untitled.md",
     "WebSocket and STOMP.md",
