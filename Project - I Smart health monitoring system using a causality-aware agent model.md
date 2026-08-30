@@ -48,3 +48,6 @@
 **justification -** Two jobs: fall/collapse detection (critical if someone passes out from gas exposure), and separating exertion-driven heart-rate rise from toxin-driven rise — without a motion signal your causal model can't tell "he's running" from "he's poisoned.
 
 ### **Power System**
+
+- **2× 18650 Li-ion cells in parallel** (3.7 V, 3400 mAh each → 6800 mAh) → **TP4056** charge/protection module → **MT3608** boost converter to a regulated 5 V rail.
+
