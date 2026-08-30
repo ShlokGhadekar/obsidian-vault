@@ -11,10 +11,14 @@
             "id": "d478a47c5855f821",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Project - I.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project - I"
             }
           }
         ]
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ddf15769712334c",
@@ -194,6 +197,7 @@
   },
   "active": "d478a47c5855f821",
   "lastOpenFiles": [
+    "Pasted image 20260830101103.png",
     "Project - I.md",
     "DSA/Sliding Window.md",
     "DSA/Prefix Sum.md",
