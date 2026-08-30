@@ -51,3 +51,10 @@
 
 - **2× 18650 Li-ion cells in parallel** (3.7 V, 3400 mAh each → 6800 mAh) → **TP4056** charge/protection module → **MT3608** boost converter to a regulated 5 V rail.
 
+### **Additional components** 
+
+1.**An ADC** — the Pi has zero analog pins, and three of your sensors (MiCS-6814, MQ-7, O2 cell) are analog. **MCP3008** is the standard choice.
+**2.Buzzer**
+**3.LED**
+4.**Signal conditioning between those analog sensors and the ADC** — MiCS-6814 and MQ-7 output up to 5V, but the MCP3008 has to run at 3.3V to keep its SPI output safe for the Pi's GPIO (feeding it 5V would risk damaging the Pi's SPI input pin). So you need resistor voltage dividers to scale 5V down to ≤3.3V on each gas-sensor channel. The O2 cell is a separate case — if it's a bare electrochemical cell it outputs microamps and needs a transimpedance op-amp (e.g. MCP6002) to turn that into a voltage; if you bought a pre-amplified O2 breakout module, it likely already outputs 0–2V or 0–3V and can skip straight to the divider/ADC stage.
+
