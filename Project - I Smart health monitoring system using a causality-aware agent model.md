@@ -75,3 +75,9 @@ Rule-based decision logic: log / alert / buzzer+LED trigger
 Independent fall/collapse detection from accelerometer (bypasses causal layer for speed)
 Future scope: lightweight RL for adaptive thresholds
 
+**Raspberry pi 5**
+5v power
+- analyse gas and pollution levels
+- person is alive or not
+	- if not alive switch off
+- location wise pollution level detection done by ML algo (final goal)
