@@ -7,7 +7,8 @@ s1.equals(s2) //never use ==
 char[] arr = s.toCharArray();
 String[] arr = s.split(" ");
 s.split("\\s+"); // split by multiple spaces
-"hello".indexOf('l'); // index of first occurance 2, -1 if 
+"hello".indexOf('l'); // index of first occurance 2, -1 if not found
+
 s1.compareTo(s2); //useful for lexicographical comparison
 //0     → equal abc abc
 //< 0   → s1 comes before s2 abc abd
