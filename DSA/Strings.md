@@ -1,3 +1,26 @@
+### Basics
+```java
+String s = "hello";
+char ch = s.charAt(1); //e
+s.substring(start, end); //end is exclusive
+s1.equals(s2) //never use ==
+char[] arr = s.toCharArray();
+String[] arr = s.split(" ");
+s.split("\\s+"); // split by multiple spaces
+"hello".indexOf('l'); // index of first occurance 2, -1 if 
+s1.compareTo(s2); //useful for lexicographical comparison
+//0     → equal abc abc
+//< 0   → s1 comes before s2 abc abd
+//> 0   → s1 comes after s2 abd abc
+
+
+```
+
+
+
+
+
+
 ### StringBuilder
 ```java
 StringBuilder sb = new StringBuilder(); //initialise
@@ -15,4 +38,3 @@ int index = sb.indexOf("abc");
 sb.setLength(3); // hello -> hel
 ```
 
-###
