@@ -10,5 +10,9 @@ char ch = sb.charAt(2);
 int n = sb.length(); //length
 sb.reverse() //reverse entire sb
 String result = sb.toString();
-String s = sb.substring(1, 4)
+String s = sb.substring(1, 4);
+int index = sb.indexOf("abc");
+sb.setLength(3); // hello -> hel
 ```
+
+###
