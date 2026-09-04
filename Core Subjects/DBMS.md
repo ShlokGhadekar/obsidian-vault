@@ -11,4 +11,19 @@ Binary Operators (Combine 2 Tables)
 - **∩ (Intersection) – Intersection**: Keeps only the rows that appear in _both_ tables.
 - **– (Minus) – Set Difference**: Keeps rows from the first table that are _not_ present in the second table.
 - **× (Cross) – Cartesian Product**: Pairs every single row of the first table with every single row of the second table.
-![[Pasted image 20260904203825.png]]
+
+question 1.
+![[Pasted image 20260904203825.png|243]]![[Pasted image 20260904203840.png|197]]
+**Student** ⊳⊲(Number=ID) **Teaching Assistants**
+(inner join of student and teaching assistant, ![[Pasted image 20260904203955.png|424]])
+
+### Types of Join
+1. Equijoin : 
+```sql
+SELECT *
+FROM Student S
+JOIN Teaching_Assistants T
+ON S.Number = T.ID;
+```
+only rows where two values are equal are joined
+2.
