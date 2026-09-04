@@ -17,13 +17,22 @@ question 1.
 **Student** ⊳⊲(Number=ID) **Teaching Assistants**
 (inner join of student and teaching assistant, ![[Pasted image 20260904203955.png|424]])
 
-### Types of Join
-1. Equijoin : 
+### JOIN in sql
+![[Pasted image 20260904204611.png|197]]
+
+1. Inner Join
 ```sql
 SELECT *
 FROM Student S
-JOIN Teaching_Assistants T
-ON S.Number = T.ID;
+INNER JOIN Department D
+ON S.Dept = D.Dept;
 ```
-only rows where two values are equal are joined
-2.
+result - A and C
+2. Left Join
+```sql
+SELECT *
+FROM Student S
+LEFT JOIN Department D
+ON S.Dept = D.Dept;
+```
+result - A, B, C
