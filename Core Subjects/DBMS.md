@@ -1,0 +1,2 @@
+### Relational Algebra
+sigma - select 
