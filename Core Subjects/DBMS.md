@@ -1,3 +1,8 @@
+***database query language : used to interact with a DB(sql), declarative
+procedural vs declarative
+
+**
+
 ### Relational Algebra
 
  *use : blueprint*
@@ -71,3 +76,4 @@ SELECT *
 FROM Student
 CROSS JOIN Department;
 ```
+
