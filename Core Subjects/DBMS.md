@@ -45,17 +45,29 @@ RIGHT JOIN Department D
 ON S.Dept = D.Dept;
 ```
 result - CS with A, C ; null for EC
-4. Full Outer Join(returns everything)
+4. **Full Outer Join(returns everything)**
 ```sql
 SELECT *
 FROM Student S
 FULL OUTER JOIN Department D
 ON S.Dept = D.Dept;
 ```
-5. Self Join(same table twice with different aliases)
+5. **Self Join(same table twice with different aliases)**
 ```sql
 SELECT E.Name, M.Name AS Manager
 FROM Employee E
 JOIN Employee M
 ON E.ManagerID = M.ID;
+```
+6. **Natural Join(automatically joins columns with same name)**
+```sql
+SELECT *
+FROM Student
+NATURAL JOIN Department;
+```
+7. **Cross Join/cartesian join(If Student has 3 rows and Department has 2: 3 × 2 = 6 rows)**
+```sql
+SELECT *
+FROM Student
+CROSS JOIN Department;
 ```
