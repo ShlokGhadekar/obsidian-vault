@@ -1,7 +1,7 @@
 ***database query language : used to interact with a DB(sql), declarative
-procedural vs declarative
-
-**
+declarative vs procedural:
+![[Pasted image 20260904210353.png|506]]
+relational algebra is procedural
 
 ### Relational Algebra
 
