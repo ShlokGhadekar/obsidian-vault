@@ -3,7 +3,57 @@ declarative vs procedural:
 ![[Pasted image 20260904210353.png|506]]
 relational algebra is procedural
 
-### Relational Algebra
+## OLAP/OLTP
+#### OLAP operations
+
+These are commonly asked:
+
+### 1. Roll-up
+
+**Summarize / move to a higher level**
+
+```
+Day → Month → Year
+```
+
+Example:
+
+```
+Daily sales → Monthly sales
+```
+
+### 2. Drill-down
+
+**Go from summary to detail**
+
+```
+Year → Month → Day
+```
+
+### 3. Slice
+
+Select **one dimension value**.
+
+```
+Sales where Year = 2026
+```
+
+### 4. Dice
+
+Select **multiple dimension values**.
+
+```
+Sales where
+Year = 2026
+AND City IN ('Pune', 'Mumbai')
+AND Product = 'Laptop'
+```
+
+### 5. Pivot
+
+**Rotate/rearrange dimensions** to view data differently.
+
+## Relational Algebra
 
  *use : blueprint*
  Unary Operators (Work on 1 Table)
@@ -76,4 +126,5 @@ SELECT *
 FROM Student
 CROSS JOIN Department;
 ```
+
 
