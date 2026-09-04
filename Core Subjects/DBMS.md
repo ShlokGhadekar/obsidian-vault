@@ -20,7 +20,7 @@ question 1.
 ### JOIN in sql
 ![[Pasted image 20260904204611.png|197]]
 
-1. Inner Join
+1. **Inner Join(only matching rows)**
 ```sql
 SELECT *
 FROM Student S
@@ -28,7 +28,7 @@ INNER JOIN Department D
 ON S.Dept = D.Dept;
 ```
 result - A and C
-2. Left Join
+2. **Left Join(all rows from left table, matching from right)**
 ```sql
 SELECT *
 FROM Student S
@@ -36,3 +36,26 @@ LEFT JOIN Department D
 ON S.Dept = D.Dept;
 ```
 result - A, B, C
+B gets null for dept column
+3. **Right Join(all rows from right table, matching from left)**
+```sql
+SELECT *
+FROM Student S
+RIGHT JOIN Department D
+ON S.Dept = D.Dept;
+```
+result - CS with A, C ; null for EC
+4. Full Outer Join(returns everything)
+```sql
+SELECT *
+FROM Student S
+FULL OUTER JOIN Department D
+ON S.Dept = D.Dept;
+```
+5. Self Join(same table twice with different aliases)
+```sql
+SELECT E.Name, M.Name AS Manager
+FROM Employee E
+JOIN Employee M
+ON E.ManagerID = M.ID;
+```
