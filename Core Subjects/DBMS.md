@@ -4,53 +4,51 @@ declarative vs procedural:
 relational algebra is procedural
 
 ## OLAP/OLTP
+It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
+Suppose a company has millions of sales records:
+```
+SaleID | Product | City   | Month | Amount
+1      | Laptop  | Pune   | Jan   | 50000
+2      | Phone   | Mumbai | Jan   | 30000
+...
+```
+An OLAP system can answer questions like:
+```
+• Total sales by city?
+• Sales by product and month?
+• Which region had the highest sales?
+• How did sales change from 2025 → 2026?
+```
 #### OLAP operations
-
 These are commonly asked:
-
 ### 1. Roll-up
-
 **Summarize / move to a higher level**
-
 ```
 Day → Month → Year
 ```
-
 Example:
-
 ```
 Daily sales → Monthly sales
 ```
-
 ### 2. Drill-down
-
 **Go from summary to detail**
-
 ```
 Year → Month → Day
 ```
-
 ### 3. Slice
-
 Select **one dimension value**.
-
 ```
 Sales where Year = 2026
 ```
-
 ### 4. Dice
-
 Select **multiple dimension values**.
-
 ```
 Sales where
 Year = 2026
 AND City IN ('Pune', 'Mumbai')
 AND Product = 'Laptop'
 ```
-
 ### 5. Pivot
-
 **Rotate/rearrange dimensions** to view data differently.
 
 ## Relational Algebra
@@ -72,7 +70,7 @@ question 1.
 **Student** ⊳⊲(Number=ID) **Teaching Assistants**
 (inner join of student and teaching assistant, ![[Pasted image 20260904203955.png|424]])
 
-### JOIN in sql
+## JOIN in sql
 ![[Pasted image 20260904204611.png|197]]
 
 1. **Inner Join(only matching rows)**
