@@ -3,6 +3,16 @@ declarative vs procedural:
 ![[Pasted image 20260904210353.png|506]]
 relational algebra is procedural
 
+## DBMS Fundamentals
+- **RDBMS is a type of DBMS based on the relational model, where data is represented using tables and relationships between tables.**
+- Schema vs instance:
+	Schema : Student(ID, Name, Age)
+	instance : 1 | Rahul | 20
+			2 | Amit  | 21
+
+## Keys
+A **Super Key** is any set of attributes that can **uniquely identify a row**.
+
 ## OLAP/OLTP
 It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
 Suppose a company has millions of sales records:
