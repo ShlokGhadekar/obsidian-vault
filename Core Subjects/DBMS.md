@@ -48,7 +48,18 @@ Foreign keys maintain **referential integrity**.
 5. *composite* key consisting of **two or more attributes**.
 	if Neither `StudentID` nor `CourseID` alone is unique.
 		PRIMARY KEY (StudentID, CourseID)
-	
+```plaintext
+Super Key      → Uniquely identifies row
+Candidate Key  → Minimal Super Key
+Primary Key    → Chosen Candidate Key
+Alternate Key  → Candidate keys not chosen
+Foreign Key    → References key in another table
+Composite Key  → Key made of multiple columns
+```
+
+## SQLFundamentals
+
+
 ## OLAP/OLTP
 It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
 Suppose a company has millions of sales records:
