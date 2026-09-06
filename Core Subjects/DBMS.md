@@ -11,8 +11,27 @@ relational algebra is procedural
 			2 | Amit  | 21
 
 ## Keys
-A **Super Key** is any set of attributes that can **uniquely identify a row**.
-
+![[Pasted image 20260906125942.png|306]]
+1. A **Super Key** is any set of attributes that can **uniquely identify a row**.
+	{ID}
+	{Name, ID}
+	{Email}
+	{ID, Email}
+	{Name, Email}
+	It can contain extra/unnecessary attributes also
+ 2. A **Candidate Key** is a **minimal super key**.
+	{ID}       → Candidate Key
+	{Email}    → Candidate Key
+3. The **Primary Key** is the candidate key selected to uniquely identify rows.
+	PRIMARY KEY (ID) *we chose*
+	ID → Primary Key
+	Email → Alternate Key
+	A primary key:
+		- Must be **unique**
+		- Cannot be **NULL**
+		- There can be **only one primary-key constraint** per table
+		- Can contain multiple columns → composite primary key
+4. A **Foreign Key** is an attribute that references a key in another table, usually the primary key.
 ## OLAP/OLTP
 It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
 Suppose a company has millions of sales records:
