@@ -32,6 +32,19 @@ relational algebra is procedural
 		- There can be **only one primary-key constraint** per table
 		- Can contain multiple columns → composite primary key
 4. A **Foreign Key** is an attribute that references a key in another table, usually the primary key.
+![[Pasted image 20260906130659.png|200]]
+Department.DeptID → Primary Key
+Student.DeptID    → Foreign Key
+```sql
+CREATE TABLE Student (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    DeptID INT,
+    FOREIGN KEY (DeptID)
+        REFERENCES Department(DeptID)
+);
+```
+Foreign keys maintain **referential integrity**.
 ## OLAP/OLTP
 It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
 Suppose a company has millions of sales records:
