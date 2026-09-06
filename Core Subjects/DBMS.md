@@ -1,0 +1,176 @@
+***database query language : used to interact with a DB(sql), declarative
+declarative vs procedural:
+![[Pasted image 20260904210353.png|506]]
+relational algebra is procedural
+
+## DBMS Fundamentals
+- **RDBMS is a type of DBMS based on the relational model, where data is represented using tables and relationships between tables.**
+- Schema vs instance:
+	Schema : Student(ID, Name, Age)
+	instance : 1 | Rahul | 20
+			2 | Amit  | 21
+
+## Keys
+![[Pasted image 20260906125942.png|306]]
+1. A **Super Key** is any set of attributes that can **uniquely identify a row**.
+	{ID}
+	{Name, ID}
+	{Email}
+	{ID, Email}
+	{Name, Email}
+	It can contain extra/unnecessary attributes also
+ 2. A **Candidate Key** is a **minimal super key**.
+	{ID}       → Candidate Key
+	{Email}    → Candidate Key
+3. The **Primary Key** is the candidate key selected to uniquely identify rows.
+	PRIMARY KEY (ID) *we chose*
+	ID → Primary Key
+	Email → Alternate Key
+	A primary key:
+		- Must be **unique**
+		- Cannot be **NULL**
+		- There can be **only one primary-key constraint** per table
+		- Can contain multiple columns → composite primary key
+4. A **Foreign Key** is an attribute that references a key in another table, usually the primary key.
+![[Pasted image 20260906130659.png|200]]
+Department.DeptID → Primary Key
+Student.DeptID    → Foreign Key
+```sql
+CREATE TABLE Student (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    DeptID INT,
+    FOREIGN KEY (DeptID)
+        REFERENCES Department(DeptID)
+);
+```
+Foreign keys maintain **referential integrity**.
+5. *composite* key consisting of **two or more attributes**.
+	if Neither `StudentID` nor `CourseID` alone is unique.
+		PRIMARY KEY (StudentID, CourseID)
+	
+## OLAP/OLTP
+It is used to **analyze large amounts of historical data** for reporting, business intelligence, and decision-making.(Online Analytical Processing)
+Suppose a company has millions of sales records:
+```
+SaleID | Product | City   | Month | Amount
+1      | Laptop  | Pune   | Jan   | 50000
+2      | Phone   | Mumbai | Jan   | 30000
+...
+```
+An OLAP system can answer questions like:
+```
+• Total sales by city?
+• Sales by product and month?
+• Which region had the highest sales?
+• How did sales change from 2025 → 2026?
+```
+#### OLAP operations
+These are commonly asked:
+### 1. Roll-up
+**Summarize / move to a higher level**
+```
+Day → Month → Year
+```
+Example:
+```
+Daily sales → Monthly sales
+```
+### 2. Drill-down
+**Go from summary to detail**
+```
+Year → Month → Day
+```
+### 3. Slice
+Select **one dimension value**.
+```
+Sales where Year = 2026
+```
+### 4. Dice
+Select **multiple dimension values**.
+```
+Sales where
+Year = 2026
+AND City IN ('Pune', 'Mumbai')
+AND Product = 'Laptop'
+```
+### 5. Pivot
+**Rotate/rearrange dimensions** to view data differently.
+
+## Relational Algebra
+
+ *use : blueprint*
+ Unary Operators (Work on 1 Table)
+- **σ (Sigma) – Selection**: Filters **rows** based on a condition (like `WHERE` in SQL).
+- **π (Pi) – Projection**: Selects specific **columns** and eliminates duplicates (like `SELECT` in SQL).
+- **ρ (Rho) – Rename**: Renames a table or a column (like `AS` in SQL).
+Binary Operators (Combine 2 Tables)
+- **⋈ (Bowtie) – Join**: Combines related rows from two tables based on a common column.
+- **∪ (Union) – Union**: Combines all unique rows from two compatible tables.
+- **∩ (Intersection) – Intersection**: Keeps only the rows that appear in _both_ tables.
+- **– (Minus) – Set Difference**: Keeps rows from the first table that are _not_ present in the second table.
+- **× (Cross) – Cartesian Product**: Pairs every single row of the first table with every single row of the second table.
+
+question 1.
+![[Pasted image 20260904203825.png|243]]![[Pasted image 20260904203840.png|197]]
+**Student** ⊳⊲(Number=ID) **Teaching Assistants**
+(inner join of student and teaching assistant, ![[Pasted image 20260904203955.png|424]])
+
+## JOIN in sql
+![[Pasted image 20260904204611.png|197]]
+
+1. **Inner Join(only matching rows)**
+```sql
+SELECT *
+FROM Student S
+INNER JOIN Department D
+ON S.Dept = D.Dept;
+```
+result - A and C
+2. **Left Join(all rows from left table, matching from right)**
+```sql
+SELECT *
+FROM Student S
+LEFT JOIN Department D
+ON S.Dept = D.Dept;
+```
+result - A, B, C
+B gets null for dept column
+3. **Right Join(all rows from right table, matching from left)**
+```sql
+SELECT *
+FROM Student S
+RIGHT JOIN Department D
+ON S.Dept = D.Dept;
+```
+result - CS with A, C ; null for EC
+4. **Full Outer Join(returns everything)**
+```sql
+SELECT *
+FROM Student S
+FULL OUTER JOIN Department D
+ON S.Dept = D.Dept;
+```
+5. **Self Join(same table twice with different aliases)**
+```sql
+SELECT E.Name, M.Name AS Manager
+FROM Employee E
+JOIN Employee M
+ON E.ManagerID = M.ID;
+```
+6. **Natural Join(automatically joins columns with same name)**
+```sql
+SELECT *
+FROM Student
+NATURAL JOIN Department;
+```
+7. **Cross Join/cartesian join(If Student has 3 rows and Department has 2: 3 × 2 = 6 rows)**
+```sql
+SELECT *
+FROM Student
+CROSS JOIN Department;
+```
+
+
+
+

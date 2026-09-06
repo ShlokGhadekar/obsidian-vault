@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d478a47c5855f821",
+            "id": "6730c71c22495a97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project - I.md",
+                "file": "Core Subjects/DBMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project - I"
+              "title": "DBMS"
+            }
+          },
+          {
+            "id": "bfc39bb80b89ba6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberSec Demo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CyberSec Demo"
             }
           }
         ]
@@ -80,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ddf15769712334c",
@@ -195,10 +210,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d478a47c5855f821",
+  "active": "6730c71c22495a97",
   "lastOpenFiles": [
-    "AI interview questions.md",
+    "Pasted image 20260906130659.png",
+    "Pasted image 20260906125942.png",
+    "Pasted image 20260904210353.png",
+    "Pasted image 20260904204611.png",
+    "Pasted image 20260904203955.png",
+    "Pasted image 20260904203840.png",
+    "Pasted image 20260904203825.png",
+    "Core Subjects/OOPS.md",
+    "Core Subjects/DBMS.md",
+    "DSA/Strings.md",
+    "Core Subjects",
+    "CyberSec Demo.md",
+    "Pasted image 20260831235959.png",
+    "Project - I Smart health monitoring system using a causality-aware agent model.md",
+    "Pasted image 20260830104038.png",
+    "Pasted image 20260830101103.png",
     "DSA/Sliding Window.md",
+    "DSA/Prefix Sum.md",
+    "AI interview questions.md",
     "Backend Frameworks/SpringBoot.md",
     "Frontend Frameworks/React.js.md",
     "AI Stuff.md",
@@ -214,20 +246,11 @@
     "Guesstimates.md",
     "INTERNSHIP.md",
     "Untitled 1.md",
-    "Project - I.md",
     "WebSocket and STOMP.md",
     "Welcome.md",
     "Images/Pasted image 20260816124012.png",
     "Bain.md",
-    "Images/Pasted image 20260821100400.png",
-    "Images/Pasted image 20260821100254.png",
-    "Images/Pasted image 20260821100201.png",
-    "Images/Pasted image 20260821053453.png",
-    "Images/Pasted image 20260816140952.png",
-    "Images/Pasted image 20260816134817.png",
-    "Images/Pasted image 20260815222434.png",
     "Images",
-    "Images/Pasted image 20260816122814.png",
     "Projects Brief.md",
     "Backend Frameworks",
     "Frontend Frameworks",

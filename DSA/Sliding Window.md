@@ -28,3 +28,29 @@ class Solution {
 ```
 - expand right if not repeated, remove from left if repeated
 - length is max of (length, right-left+1)
+
+[209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+**Input:** target = 7, nums = [2,3,1,2,4,3]
+**Output:** 2
+**Explanation:** The subarray [4,3] has the minimal length under the problem constraint.
+
+```java
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        int left = 0;
+        int sum = 0;
+        int ans = Integer.MAX_VALUE;
+        for(int right = 0;right<nums.length;right++){
+            sum+=nums[right];
+            while(sum>=target){
+                ans = Math.min(ans, right-left+1);
+                sum = sum - nums[left];
+                left++;
+            }
+
+        }
+        return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+}
+```
+
