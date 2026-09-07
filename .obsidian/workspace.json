@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6730c71c22495a97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Subjects/DBMS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DBMS"
-            }
-          },
-          {
             "id": "bfc39bb80b89ba6b",
             "type": "leaf",
             "state": {
@@ -210,8 +196,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6730c71c22495a97",
+  "active": "bfc39bb80b89ba6b",
   "lastOpenFiles": [
+    "Core Subjects/DBMS.md",
     "Cyberattack.md",
     "Pasted image 20260906130659.png",
     "Pasted image 20260906125942.png",
@@ -221,7 +208,6 @@
     "Pasted image 20260904203840.png",
     "Pasted image 20260904203825.png",
     "Core Subjects/OOPS.md",
-    "Core Subjects/DBMS.md",
     "DSA/Strings.md",
     "Core Subjects",
     "CyberSec Demo.md",
