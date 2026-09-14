@@ -11,4 +11,6 @@
 **Sequential features**: monthly aggregates per customer (order count, total spend, average basket size) over the months leading up to the cutoff — this feeds the LSTM/GRU branch.  
 **Limitation to state upfront**: churn label is heuristic, not ground truth, and there's some class imbalance and noisy/cancelled-order rows we'll need to clean.
 
-Interview Must-Know
+## Interview Must-Knows
+
+1.Why shouldn't you commit datasets or trained models to git? (repo bloat, no diffing value, often licensing issues — use `.gitignore` + a README note on how to regenerate)
