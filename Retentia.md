@@ -5,6 +5,7 @@
 - which customers should be prioritized for retention
 
 **Dataset used :** Online Retail II (UCI)  ~1M transaction rows, 2009–2011, real e-commerce invoices per customer
+![[Pasted image 20260914221514.png]]
 
 **Target**: customer churn = binary label we derive (e.g., no purchase in the final 2-month holdout window, given the data's observation period).  
 **Static/tabular features**: country, average order value, total customer tenure so far, product category diversity, etc. (engineered from transactions, aggregated as-of a cutoff date).  
