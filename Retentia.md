@@ -4,6 +4,9 @@
 - major factors contributing to the prediction
 - which customers should be prioritized for retention
 
+**Tools used:
+1. pandas(eda)
+
 **Dataset used :** Online Retail II (UCI)  ~1M transaction rows, 2009–2011, real e-commerce invoices per customer
 ![[Pasted image 20260914221514.png]]
 
