@@ -13,4 +13,6 @@
 
 ## Interview Must-Knows
 
-1.Why shouldn't you commit datasets or trained models to git? (repo bloat, no diffing value, often licensing issues — use `.gitignore` + a README note on how to regenerate)
+1. Why shouldn't you commit datasets or trained models to git? (repo bloat, no diffing value, often licensing issues — use `.gitignore` + a README note on how to regenerate)
+2. Why pin/track dependencies at all? (reproducibility — someone else, or future-you, can recreate your exact environment)
+3. Why a venv instead of installing globally? (isolation — avoids version conflicts across projects)
