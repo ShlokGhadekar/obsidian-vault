@@ -23,3 +23,5 @@
 4. Why do exact duplicate rows sometimes need to stay in transactional data (e.g., two identical items bought in the same order) instead of being blindly dropped?
 5. Why is "missing Customer ID" not something you can impute — and why does that force you to drop those rows rather than fill them?
 6. Why look at cancellations/returns before deciding whether to include them in "purchase" features (hint: including them could bias frequency/recency features)?
+7. Why is it wrong to just do `df[df['Quantity'] > 0]` globally and call it clean, without separately tracking cancellations? (you'd silently lose a real behavioral signal — return rate — that could be predictive)
+8. What's the difference between "missing at random" and "missing not at random" — and which do you think Customer ID is? (hint: guest checkouts aren't random — this is a modeling limitation worth stating explicitly in your README)
