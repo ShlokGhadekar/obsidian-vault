@@ -54,3 +54,32 @@ print(f"Dropped {before - len(purchases)} duplicate rows")
 print(purchases.shape)
 ```
 *Dropped 26124 duplicate rows (779425, 9)*
+
+```python
+print(purchases['InvoiceDate'].min())
+print(purchases['InvoiceDate'].max())
+```
+*2009-12-01 07:45:00 
+2011-12-09 12:50:00*
+
+```python
+import pandas as pd
+
+cutoff = pd.Timestamp("2011-09-30")
+
+history = purchases[purchases['InvoiceDate'] < cutoff]
+future = purchases[purchases['InvoiceDate'] >= cutoff]
+
+customers_with_history = set(history['Customer ID'].unique())
+customers_with_future_purchase = set(future['Customer ID'].unique())
+
+print("Customers with history (feature-eligible):", len(customers_with_history))
+print("Of those, purchased again after cutoff (not churned):",
+      len(customers_with_history & customers_with_future_purchase))
+print("Churn rate:", 1 - len(customers_with_history & customers_with_future_purchase) / len(customers_with_history))
+```
+Customers with history (feature-eligible): 5430 Of those, purchased again after cutoff (not churned): 2132 Churn rate: 0.6073664825046041
+*61% churn rate*
+
+
+### Building a feature set:

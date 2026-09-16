@@ -15,6 +15,9 @@
 **Sequential features**: monthly aggregates per customer (order count, total spend, average basket size) over the months leading up to the cutoff — this feeds the LSTM/GRU branch.  
 **Limitation to state upfront**: churn label is heuristic, not ground truth, and there's some class imbalance and noisy/cancelled-order rows we'll need to clean.
 
+Features:
+
+for a retail dataset like this (not a subscription), a "customer" who buys once and never returns isn't necessarily a retention failure — they may have never intended to be repeat customers. This is a real limitation of using purchase-based churn as a proxy, and it's worth being upfront about it rather than treating the number as ground truth.(61% churn rate)
 ## Interview Must-Knows
 
 1. Why shouldn't you commit datasets or trained models to git? (repo bloat, no diffing value, often licensing issues — use `.gitignore` + a README note on how to regenerate)
