@@ -15,7 +15,12 @@
 **Sequential features**: monthly aggregates per customer (order count, total spend, average basket size) over the months leading up to the cutoff — this feeds the LSTM/GRU branch.  
 **Limitation to state upfront**: churn label is heuristic, not ground truth, and there's some class imbalance and noisy/cancelled-order rows we'll need to clean.
 
-Features:
+**Features:**
+- **recency_days** — how long since their last purchase (before cutoff). Classic churn signal.
+- **frequency** — how many distinct orders they've placed. Loyal customers order more often.
+- **total_spend / avg_order_value** — monetary value, standard RFM.
+- **tenure_days** — how long they've been a customer. New customers churn differently than long-time ones.
+- **distinct_products** — variety of products bought; broader engagement may correlate with lower churn.
 
 for a retail dataset like this (not a subscription), a "customer" who buys once and never returns isn't necessarily a retention failure — they may have never intended to be repeat customers. This is a real limitation of using purchase-based churn as a proxy, and it's worth being upfront about it rather than treating the number as ground truth.(61% churn rate)
 ## Interview Must-Knows
