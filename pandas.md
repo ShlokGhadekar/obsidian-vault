@@ -83,3 +83,28 @@ Customers with history (feature-eligible): 5430 Of those, purchased again after 
 
 
 ### Building a feature set:
+```python
+cutoff = pd.Timestamp("2011-09-30")
+
+# Total spend per invoice line
+history = history.copy()
+history['LineTotal'] = history['Quantity'] * history['Price']
+
+# Group by customer
+agg = history.groupby('Customer ID').agg(
+    recency_days=('InvoiceDate', lambda x: (cutoff - x.max()).days),
+    frequency=('Invoice', 'nunique'),          # number of distinct orders
+    total_spend=('LineTotal', 'sum'),
+    avg_order_value=('LineTotal', 'sum'),      # placeholder, fix below
+    tenure_days=('InvoiceDate', lambda x: (cutoff - x.min()).days),
+    avg_quantity=('Quantity', 'mean'),
+    distinct_products=('StockCode', 'nunique'),
+).reset_index()
+
+# avg_order_value = total spend / number of orders (fix the placeholder)
+agg['avg_order_value'] = agg['total_spend'] / agg['frequency']
+
+print(agg.shape)
+agg.head()
+```
+![[Pasted image 20260917130143.png]]
