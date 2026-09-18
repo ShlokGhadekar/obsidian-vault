@@ -33,3 +33,6 @@ for a retail dataset like this (not a subscription), a "customer" who buys once 
 6. Why look at cancellations/returns before deciding whether to include them in "purchase" features (hint: including them could bias frequency/recency features)?
 7. Why is it wrong to just do `df[df['Quantity'] > 0]` globally and call it clean, without separately tracking cancellations? (you'd silently lose a real behavioral signal — return rate — that could be predictive)
 8. What's the difference between "missing at random" and "missing not at random" — and which do you think Customer ID is? (hint: guest checkouts aren't random — this is a modeling limitation worth stating explicitly in your README)
+9. Why compare mean vs. median specifically to detect skew? (in a symmetric distribution they're roughly equal; a big gap means the mean is being pulled by extreme values — a direct sign of skew)
+10. Why do we keep the _original_ columns around instead of overwriting them? (useful for EDA/interpretability later — e.g., SHAP explanations are more intuitive in raw units like "3 orders" than in log units)
+11. Standardization (z-score scaling) still needs to happen later — why can't we standardize now, before we've split train/val/test? (this is the data leakage question again: fitting a scaler means computing a mean/std, and that must only ever be computed on the training set)

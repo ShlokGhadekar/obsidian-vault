@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,11 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6707d088a12cfe07",
+  "active": "2f534baa1e1bbf39",
   "lastOpenFiles": [
+    "pandas.md",
     "Pasted image 20260917130143.png",
     "Retentia.md",
-    "pandas.md",
     "Pasted image 20260914221514.png",
     "CyberSec Demo.md",
     "Core Subjects/DBMS.md",
@@ -246,7 +246,6 @@
     "Core Subjects",
     "Pasted image 20260831235959.png",
     "Project - I Smart health monitoring system using a causality-aware agent model.md",
-    "Pasted image 20260830104038.png",
     "DSA/Sliding Window.md",
     "DSA/Prefix Sum.md",
     "AI interview questions.md",
