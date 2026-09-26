@@ -21,5 +21,7 @@ REST API
 #### key questions to ask the interviewer:
 
 1. *how long should the url be*:
-	
+	![[Pasted image 20260926221806.png]]
 
+so we need to use 7 characters
+#### HLD
