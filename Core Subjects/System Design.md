@@ -25,3 +25,16 @@ REST API
 
 so we need to use 7 characters
 #### HLD
+
+POST
+![[Pasted image 20260926222708.png]]
+GET
+![[Pasted image 20260926222750.png]]
+**Additional talking points**
+1. Analytics
+- ﻿﻿Counts for each URL to determine which short URLS to cache
+- ﻿﻿IP address to store location information to determine where to locate caches etc.
+2. Rate limiting
+-  Prevent DDoS attacks by malicious users
+3. Security considerations
+ - Add random suffix to the short url to prevent hackers predicting
