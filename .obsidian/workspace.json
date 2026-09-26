@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ddf15769712334c",
@@ -224,11 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36753792bb5a1fee",
+  "active": "5e05a55cbd931d0d",
   "lastOpenFiles": [
-    "Interview Preparation.md",
     "Interview Theory Checklist — Priority Order.md",
     "Core Subjects/System Design.md",
+    "Interview Preparation.md",
     "pandas.md",
     "Untitled.md",
     "sklearn.md",
