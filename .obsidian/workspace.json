@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f9c9e948b1242c96",
+        "id": "afc6043e232d48a2",
         "type": "tabs",
         "children": [
           {
-            "id": "893ee8324f3b5cc2",
+            "id": "a1c57775fe96ae41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PWC prep.md",
+                "file": "pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PWC prep"
+              "title": "pandas"
             }
           }
         ]
@@ -196,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "893ee8324f3b5cc2",
+  "active": "a1c57775fe96ae41",
   "lastOpenFiles": [
     "PWC prep.md",
     "Core Subjects/System Design.md",
